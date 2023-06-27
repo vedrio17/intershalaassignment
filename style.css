@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    background-color: #B9F3E4;
+  }
+  
+  #left-panel {
+    width: 15%;
+    background-color: #E3F4F4;
+    padding: 40px;
+    height: 700px;
+    display: block;
+  }
+  
+  #content {
+    flex: 1;
+    padding: 40px;
+   
+  }
+  
+  #home,
+  #contact,
+  #information,
+  #guide {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 25px;
+  }
+  
+  #home:hover,
+  #contact:hover,
+  #information:hover,
+  #guide:hover {
+    background-color: #ddd;
+  }
